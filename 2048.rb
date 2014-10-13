@@ -188,6 +188,7 @@ while not check_win do
 	if work	== true
 		new_piece
 	end
+	system("clear")
 	print_board
 	if check_lose
 		win = false
